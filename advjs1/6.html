@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Advanced js 1(6)
+	</title>
+    <script type="text/javascript">
+	function f() {
+		var p ={fname:"Shruti",lname:"Chauhan",email:"shr@gmail.com",phone:"8986575867"};
+		
+		document.getElementById("fname").innerHTML = p.fname;
+		document.getElementById("lname").innerHTML = p.lname;
+		document.getElementById("email").innerHTML = p.email;
+		document.getElementById("phone").innerHTML = p.phone;
+	}
+    </script>
+</head>
+
+
+<body>
+
+
+    <button onclick="f()">click here!!</button><br><br>
+	First Name : <p id="fname"></p><br><br>
+	Last Name : <p id="lname"></p><br><br>
+	Email : <p id="email"></p><br><br>
+	Phone : <p id="phone"></p>
+	
+
+
+</body>
+</html>
